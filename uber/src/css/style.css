@@ -1,0 +1,189 @@
+*{
+ font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header{
+  
+  position: relative;
+}
+  
+
+nav{
+ min-height: 51px;
+ background-color: #212121;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0 auto;
+  list-style: none;
+}
+.menu_link{
+  font-size: 15px;
+  font-weight: 300;
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu_item{
+  border-right: 2px dotted black;
+  padding-right: 28px;
+}
+.subhead{
+  width: 100%;
+  position: absolute;
+  height: 84px;
+  background-color: rgba(0,0,0, 0.6);
+  
+}
+.subhead_logo{
+ display: block;
+ max-width: 100%;
+ margin-top: 16px;
+}
+.subhead_text{
+ margin-top: 6px;
+ opacity: 0.5;
+ font-size: 13px;
+ font-weight: 100;
+ color: #ffffff;
+}
+.subhead_call{
+ text-align: right;
+ margin-top: 19px;
+ font-size: 12px;
+ font-weight: 300;
+ color: #ffffff;
+}
+.subhead_phone{
+ display: block;
+ margin-top: 8px;
+ text-decoration: none;
+ line-height: 12px;
+ text-align: right;
+ font-size: 22px;
+ font-weight: 400;
+ text-transform: uppercase;
+ color: #ffffff;
+}
+.subhead_btn{
+ width: 178px;
+ height: 52px;
+ margin-top: 19px;
+ background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+ border: none;
+ border-radius:4px;
+ box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.11);
+ font-size: 14px;
+ font-weight: 400;
+ text-transform: uppercase;
+ text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+ color: #ffffff;
+}
+
+/* HEADER END */
+
+/* SECTION PROMO */
+.promo{ 
+ min-height: 800px;
+ background:url('../img/bg.jpg') center center/cover no-repeat;
+ padding: 150px 0 135px 0;
+ 
+ 
+}
+.promo_header{
+ margin: 0;
+ text-align: center;
+ font-size: 60px;
+ font-weight: 700;
+ line-height: 60px;
+ text-transform: uppercase;
+ color: #ffffff;
+}
+.promo_subheader{
+ margin: 0;
+ margin-top: 22px;
+ font-size: 36px;
+ font-weight: 700;
+ line-height: 36px;
+ text-transform: uppercase;
+ color: #ffffff;
+ text-align: center;
+}
+.promo_text{
+font-size: 18px;
+margin-top: 23px;
+line-height: 24px;
+font-weight: 400;
+color: #ffffff;
+text-align: center;
+}
+.promo_btn{
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 265px;
+  height: 69px;
+  background-image: linear-gradient(0.0deg, #1eacc7 0%, #4ce2ff 100%);
+  border: none;
+  border-radius: 4px;
+  box-shadow: inset 0px -4px 0px 0px rgba(0,0,0,0.11);
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+  color: #ffffff;
+}
+
+/* SECTION PROMO END */
+
+/* SECTION ADVAN */
+
+.advan_logo{
+  width: 112px;
+  padding: 5px 0 3px 0;
+  margin: 0 auto;
+  margin-top: 71px;
+  text-align: center;
+  background-color: #000000;
+  font-size: 11px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.advan_title{
+  margin-top: 38px;
+  text-align: center;
+  font-size: 38px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.advan_block{
+  min-height: 165px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+.advan_text{
+  width: 345px;
+  padding-left: 30px;
+  text-align: justify;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #202020;
+}
+.advan_text__blue{
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #1eacc7;
+}
+
+
+/* SECTION ADVAN END */

@@ -1,0 +1,25 @@
+$text-color: green
+@mixin box
+ display: block
+ width: 200px
+ height: 200px
+ background-color: red
+ 
+
+
+h1
+ font-size: 50px
+ @include box
+h2
+ font-size: 45px
+
+
+
+.block
+  background-color: black
+  h3
+   color: $text-color
+  &_color
+   color: yellow
+   button
+    @include box
